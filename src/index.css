@@ -1,0 +1,68 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+ul{
+  list-style: none;
+}
+
+
+img{
+  display: block;
+}
+
+nav{
+    
+  position: absolute;
+  top: 28px;   
+  width: 100%; 
+
+}
+
+nav .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav .container .menu {
+  display: flex;
+  align-items: center;
+}
+nav .container .menu ul{
+  display: flex;
+  column-gap: 60px;
+}
+
+
+nav .container .menu ul li a{
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  transition: 3s;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+nav .container .menu ul li a:hover{
+ color: black;
+}
+
+

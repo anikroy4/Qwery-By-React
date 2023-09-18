@@ -1,0 +1,94 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+  
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+  
+  
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+  
+  
+ul{
+    list-style: none;
+}
+  
+  
+img{
+    display: block;
+}
+
+#bromo{
+    background: black;
+    padding-bottom: 296px;
+}
+
+
+#bromo .container{
+    background: url(./public/Bromo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 569px 0 33px ;
+    text-align: center;
+
+}
+
+
+#bromo .container .bromo_title{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+#bromo .container h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    width: 932px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 13px auto 14px;
+
+}
+
+
+#bromo .container .bromo_details{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 893px;
+    margin: 0 auto 26px; 
+}
+
+
+#bromo .container a{
+    color: #FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+} 

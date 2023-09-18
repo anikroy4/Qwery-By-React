@@ -1,0 +1,167 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+  
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+  
+  
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+  
+  
+ul{
+    list-style: none;
+}
+  
+  
+img{
+    display: block;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    padding: 190px 0  0 0;
+}
+
+
+
+footer .container {
+    
+    display: flex;
+    margin-bottom: 153px;
+}
+
+
+footer .left{
+    width: 50%;
+}
+
+
+footer .left h2{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    padding: 82px 0 49px ; 
+    width: 400px;
+   
+}
+
+
+footer .left a{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+    padding: 0 0 34px ;
+}
+
+
+footer .left .icon a{
+
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+footer .right{
+    width: 50%;
+}
+
+
+footer .right .get_started{
+   text-align: center;
+}
+
+
+footer .right .get_started .ready{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    margin-right: 18px;
+}
+
+
+
+footer .right .get_started .started{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding:18px 47px;
+    border-radius: 10px;
+    background: #FFA343;
+    margin-bottom: 60px;
+}
+
+
+footer .right .main{
+    display: flex;
+}
+
+
+footer .right .main .list_item a{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto; /* 0% */
+    text-transform: capitalize;
+}
+
+
+
+footer .right .main .list_item h3{
+    color: #FFD1A0;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+}
+
+
+
+footer .right .main .footer_about{
+    margin: 0 139px  0 48px;
+}
+
+
+
+footer p{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    padding-bottom: 25px;
+}
